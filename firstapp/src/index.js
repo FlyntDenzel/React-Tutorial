@@ -1,12 +1,14 @@
-//enabling the use of react and its dom
 import React from "react";
-import ReactDOM from "react-dom";
-
-// variable.render(what to render, where to render, when render function is completed(optional))
+import ReactDOM from "react";
 
 ReactDOM.render(
   <div>
-    <h1>Hello World, It is Nchang</h1>
-    <h2>Learning react with angela yu</h2>
+    <h1>My favourite video games</h1>
+  <ul>
+    <li>Call of Duty</li>
+    <li>Splinter Cell</li>
+    <li>Assassin's creed</li>
+  </ul>
   </div>,
-document.getElementById("root"));
+  document.getElementById("root")
+);
