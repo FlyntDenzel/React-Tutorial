@@ -1,7 +1,12 @@
 //enabling the use of react and its dom
-var React = require("react");
-var ReactDom = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
 // variable.render(what to render, where to render, when render function is completed(optional))
 
-ReactDom.render(<h1>Flynt Denzel</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1>Hello World, It is Nchang</h1>
+    <h2>Learning react with angela yu</h2>
+  </div>,
+document.getElementById("root"));
