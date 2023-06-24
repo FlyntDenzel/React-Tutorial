@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// const number = 4;
+const fname = "Nchang";
+const lname = "Denzel";
+
+const date = Date.now;
 
 ReactDOM.render(
   <div>
@@ -12,6 +15,9 @@ ReactDOM.render(
        <li>Assassin's creed</li>
      </ul>
      <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
+     <p>Hello {fname} {lname}</p>
+     <h2>Created by {fname}</h2>
+     <h2>Copyright in {date}</h2>
   </div>,
   document.getElementById("root")
 );
