@@ -4,12 +4,13 @@ import ReactDOM from "react-dom";
 const fname = "Nchang";
 const lname = "Denzel";
 
+// creating an object for the date method
 const currentDate = new Date();
 const year = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
-      <h1>My favourite video games</h1>
+      <h1 className="text-1" contentEditable="true"> My favourite video games</h1>
       <ul>
        <li>Call of Duty</li>
        <li>Splinter Cell</li>
