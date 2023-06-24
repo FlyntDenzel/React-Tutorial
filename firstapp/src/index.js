@@ -4,7 +4,8 @@ import ReactDOM from "react-dom";
 const fname = "Nchang";
 const lname = "Denzel";
 
-const date = Date.now;
+const currentDate = new Date();
+const year = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
@@ -16,8 +17,8 @@ ReactDOM.render(
      </ul>
      <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
      <p>Hello {fname} {lname}</p>
-     <h2>Created by {fname}</h2>
-     <h2>Copyright in {date}</h2>
+     <p>Copyrighted in {year}</p>
+
   </div>,
   document.getElementById("root")
 );
